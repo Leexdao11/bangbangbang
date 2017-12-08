@@ -1,0 +1,99 @@
+.jmember_nav {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+.leftMenu {
+	min-width:220px;
+    width:268px;
+	margin:40px auto 0 auto;
+}
+.jmember_nav .menu {
+	border: #bdd7f2 1px solid;
+	border-top: #0080c4 4px solid;
+	border-bottom: #0080c4 4px solid;
+	background: #f4f9ff url(images/leftdhbg.jpg) repeat-y right;
+	margin-left: 10px;
+}
+.jmember_nav .menu .ListTitle {
+	border-bottom: 1px #98c9ee solid;
+	display: block;
+	text-align: center;
+	/*position: relative;*/
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	/*+min-width:220px;*/
+	+width:100%;
+}
+.jmember_nav .ListTitlePanel {
+	position: relative;
+}
+.leftbgbt {
+	position: absolute;
+	background: url(images/leftbgbt.jpg) no-repeat;
+	width: 11px;
+	height: 52px;
+	left: -11px;
+	top: -4px;
+}
+/*.leftbgbt {
+	float:left;
+	background: url(images/leftbgbt.jpg) no-repeat;
+	width: 11px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	zoom:1;
+	z-index:200px;
+}
+*/.leftbgbt2 {
+	position: absolute;
+	background: url(images/leftbgbt2.jpg) no-repeat;
+	width: 11px;
+	height: 48px;
+	left: -11px;
+	top: -1px;
+}
+.menuList {
+	display: block;
+	height: auto;
+}
+.menuList div {
+	height: 28px;
+	line-height: 24px;
+	border-bottom: 1px #98c9ee dotted;
+}
+.menuList div a {
+	display: block;
+	background: #fff;
+	line-height: 28px;
+	width:100%;
+	height: 28px;
+	text-align: center;
+	color: #185697;
+	text-decoration: none;
+}
+.menuList div a:hover {
+	color: #f30;
+	background: #0080c4;
+	color: #fff;
+}
+
+
+/* Individual styles */
+ .leftMenu {
+    -webkit-transform: perspective(1200px) rotateY(40deg) !important;
+    -moz-transform: perspective(1200px) rotateY(40deg) !important;
+    -ms-transform: perspective(1200px) rotateY(40deg) !important;
+    -o-transform: perspective(1200px) rotateY(40deg) !important;
+    transform: perspective(1200px) rotateY(40deg) !important;
+
+    -webkit-transform-origin: 110% 25%;
+    -moz-transform-origin: 110% 25%;
+    -ms-transform-origin: 110% 25%;
+    -o-transform-origin: 110% 25%;
+    transform-origin: 110% 25%;
+    left: 10%;
+} 

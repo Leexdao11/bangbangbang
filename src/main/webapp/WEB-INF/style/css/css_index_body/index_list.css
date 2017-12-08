@@ -1,0 +1,397 @@
+@CHARSET "UTF-8";
+
+#jindex .section {
+	width: 100%;
+	align: center
+}
+
+#jindex .section .bd {
+	width: 1200px;
+	margin: auto;
+	position: relative
+}
+
+#jindex .section .bd .title {
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+	padding: 11px 15px
+}
+
+#jindex .section .bd .title h3 {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	padding-left: 12px;
+	font-size: 16px;
+	color: #666;
+	border-left: 4px solid #0086E6
+}
+
+#jindex .section .bd .title a {
+	float: right;
+	width: 64px;
+	height: 24px;
+	line-height: 23px;
+	overflow: hidden;
+	background: url(../img/readmore.png) no-repeat;
+	color: #666;
+	text-indent: 30px;
+	margin-top: 20px
+}
+#jindex .section .bd .links a {
+	color:#000;
+	text-decoration:none;
+}
+
+#jindex .section .bd .links a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+
+#jindex .zhuanji {
+	background-color: #fff
+}
+
+#jindex .title h3 {
+	color: #fff;
+	border-left: 4px solid #fff
+}
+
+
+
+#jindex .list {
+	padding-top: 20px
+}
+
+#jindex .list:after,#jindex .list:before {
+	content: "";
+	display: table;
+	line-height: 0
+}
+
+#jindex .list:after {
+	clear: both
+}
+
+#jindex .list li {
+	width: 286px;
+	height: 116px;
+	overflow: hidden;
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 10px
+}
+
+#jindex .list li a {
+	display: block;
+	height: 105px;
+	padding: 5px 0 0 121px;
+	position: relative;
+	border: 3px solid #fff;
+	background-color: #fff
+}
+
+#jindex .list li a img {
+	width: 100px;
+	height: 100px
+}
+
+#jindex .list li a .pic {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 5px;
+	left: 5px
+}
+
+#jindex .list li a em {
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	color: #000;
+	font-size: 14px
+}
+
+#jindex .list li a p {
+	line-height: 24px;
+	color: #999
+}
+
+#jindex .list li a p.type {
+	color: #666
+}
+
+#jindex .list li a:hover {
+	text-decoration: none;
+	border-color: #0086E6
+}
+
+#jindex .list-specialres {
+	padding-top: 20px
+}
+
+#jindex .list-specialres:after,#jindex .list-specialres:before {
+	content: "";
+	display: table;
+	line-height: 0
+}
+
+#jindex .list-specialres:after {
+	clear: both
+}
+
+#jindex .list-specialres li {
+	width: 350px;
+	overflow: hidden;
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 10px
+}
+
+#jindex .list-specialres li a {
+	display: block;
+	width: px;
+	height: 200px;  /* 此项定下来留作占位，后期图片导入之后可删除 */
+	position: relative
+}
+
+#jindex .list-specialres li a img {
+	width: 350px;
+	height: 180px;
+	display: block;
+	margin-bottom: 10px
+}
+
+#jindex .list-specialres li a em {
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	display: block;
+	font-size: 14px;
+	color: #000
+}
+
+#jindex .list-specialres li a p {
+	line-height: 24px;
+	color: #999
+}
+
+#jindex .list-specialres li a p .download {
+	float: right;
+	padding-right: 5px
+}
+
+#jindex .list-specialres li a:hover {
+	text-decoration: none;
+	border-color: #0086E6
+}
+
+#jindex .list-specialres li a:hover:before {
+	content: "";
+	display: block;
+	width: 344px;
+	height: 175px;
+	border: 3px solid #0086E6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: 0 0
+}
+
+#jindex .luntan {
+	background-color: #FFF;
+	padding-bottom: 20px
+}
+
+#jindex .luntan:after,#jindex .luntan:before {
+	content: "";
+	display: table;
+	line-height: 0
+}
+
+#jindex .luntan:after {
+	clear: both
+}
+
+#jindex .luntan .main {
+	float: left;
+	width: 595px
+}
+
+#jindex .luntan .aside {
+	float: right;
+	width: 595px
+}
+
+#jindex .youlian {
+	padding: 10px 0 50px
+}
+
+#jindex .youlian .links {
+	padding: 15px;
+	font-size: 0
+}
+
+#jindex .youlian .links a {
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 10px
+}
+
+
+/* ******************************************* */
+
+#jindex a:focus {
+	outline: dotted thin
+}
+
+#jindex a:active,#jindex a:hover {
+	outline: 0
+}
+
+#jindex h1 {
+	font-size: 2em
+}
+
+#jindex h2 {
+	font-size: 1.5em
+}
+
+#jindex h3 {
+	font-size: 1.17em
+}
+
+#jindex h4 {
+	font-size: 1em
+}
+
+#jindex h5 {
+	font-size: .83em
+}
+
+#jindex h6 {
+	font-size: .67em
+}
+
+
+#jindex{
+	width: 100%;
+	align: center;
+	overflow: hidden; 
+	
+}
+
+#jindex img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle
+	border: 0;
+	-ms-interpolation-mode: bicubic
+}
+
+#jindex em {
+	font-style: normal
+}
+
+#jindex ul {
+	list-style: none
+}
+
+
+
+
+#jindex a.fr {
+	margin-right: 0;
+	margin-left: 10px;
+	float: right !important
+}
+
+
+
+#jindex {
+	font: 12px/1.5 Tahoma, sans-serif;
+	color: #333;
+	background-color: #fff
+}
+
+#jindex a {
+	text-decoration: none;
+	color: #000
+}
+
+#jindex a:hover {
+	text-decoration: underline;
+	color: #9400d3
+}
+
+#jindex .list-bbs {
+	padding-top: 20px
+}
+
+#jindex .list-bbs:after,#jindex .list-bbs:before {
+	content: "";
+	display: table;
+	line-height: 0
+}
+
+#jindex .list-bbs:after {
+	clear: both
+}
+
+#jindex .list-bbs li {
+	width: 270px;
+	height: 80px;
+	overflow: hidden;
+	float: left;
+	margin-left: 6px;
+	margin-bottom: 6px
+}
+
+#jindex .list-bbs li a {
+	display: block;
+	width: 180px;
+	height: 65px;
+	padding: 7px 2px 2px 72px;
+	position: relative;
+	border: 1px solid #F4F4F4;
+	background-color: #fff
+}
+
+#jindex .list-bbs li a img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 5px;
+	left: 5px
+}
+
+#jindex .list-bbs li a em {
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	color: #000;
+	font-size: 14px
+}
+
+#jindex .list-bbs li a p {
+	color: #999;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden
+}
+
+#jindex .list-bbs li a:hover {
+	padding: 5px 0 0 70px;
+	text-decoration: none;
+	border: 3px solid #0086E6
+}
+
+#jindex .list-bbs li a:hover img {
+	top: 3px;
+	left: 3px
+}

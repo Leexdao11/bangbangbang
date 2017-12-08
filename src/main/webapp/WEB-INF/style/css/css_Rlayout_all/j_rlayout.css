@@ -1,0 +1,61 @@
+/*j_top.jsp 全站头部响应式布局 ----------开始---------------*/
+@media ( min-width :1300px) {
+}
+
+@media ( max-width :1300px) {
+	.j_nav a {
+		padding: 0 18px;
+	}
+}
+
+@media ( max-width :1215px) {
+	.j_nav a {
+		padding: 0 13px;
+	}
+}
+
+@media ( max-width :1115px) {
+	.j_nav a {
+		padding: 0 10px;
+	}
+	.j_usermsg_jf {
+		display: none;
+	}
+	.j_usermsg_jb {
+		display: none;
+	}
+	.j_usermsg_enter {
+		display: block;
+	}
+	.j_usermsg_enter2 {
+		display: none;
+	}
+	.j_usermsg_grxx {
+		display: none;
+	}
+	.j_usermsg_xx {
+		display: none;
+	}
+	.j_usermsg_loginout {
+		margin-right: 30%;
+	}
+	.j_usermsg_loginout {
+		display: none;
+	}
+	@media ( max-width :1024px) {
+		.j_nav a {
+			padding: 0 9px;
+		}
+		#userimg {
+			display: none;
+		}
+		#myname {
+			margin-right: -50%;
+		}
+		#selectmsg {
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+/*j_top.jsp 全站头部响应式布局 ----------结束---------------*/
